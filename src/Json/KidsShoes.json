@@ -1,0 +1,56 @@
+{
+    "air_force_1_lv8_1": {
+        "name": "Air Force-1-LV8-1",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dfe96763-ea9a-4ea7-896f-933e205cf5f6/air-force-1-lv8-1-older-shoe-jR0N2F.jpg",
+        "price": "110",
+        "color": "White, Grey, Brown"
+      },
+      "air_force_1_lv8": {
+        "name": "Air Force-1-LV",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-aa0f5c7a-89bf-4736-ab24-54169a96dc57/air-force-1-lv8-older-shoe-PjkZ9q.jpg",
+        "price": "172",
+        "color": "White, Blue"
+      },
+      "air_max_fusion": {
+        "name": "Air Max Fusion",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-28aee895-f53e-4700-8021-2a1ba62d5a65/air-max-fusion-younger-shoe-jCNqnw.jpg",
+        "price": "145",
+        "color": "White, Grey, Blue"
+      },
+      "air_zoom_speed": {
+        "name": "Air Zoom Speed",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/695f645c-bce9-4421-a923-cd68e3980249/air-zoom-speed-younger-older-running-shoe-JnhB6z.jpg",
+        "price": "168",
+        "color": "White, Grey"
+      },
+      "blazer_low": {
+        "name": "Blazer Low",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/82e109ec-2167-4fe0-a3a2-de15a28a6a98/blazer-low-older-shoe-thRtf0.jpg",
+        "price": "192",
+        "color": "White, Grey, Blue"
+      },
+      "blazer_mid": {
+        "name": "Blazer Mid",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/70a835e6-3391-4c4a-b67b-ef1a14b38efa/blazer-mid-older-shoe-kqDHTc.jpg",
+        "price": "188",
+        "color": "White, Pink, Red"
+      },
+      "force_1_ww": {
+        "name": "Force-1-WW",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0e4d437c-3c7d-4f0d-a308-11449ba7510d/force-1-ww-younger-shoe-D7sqlW.jpg",
+        "price": "198",
+        "color": "White, Black, Blue"
+      },
+      "react_vision": {
+        "name": "React Vision",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ec345279-31dd-4534-94f5-801451ba98bf/react-vision-older-shoe-gWTCN3.jpg",
+        "price": "215",
+        "color": "White, Grey, Black, Blue"
+      },
+      "zoom_flight": {
+        "name": "Zoom Flight",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67dd405d-e91e-4492-8a80-58410c5625c7/zoom-flight-older-basketball-shoe-FG7pVN.jpg",
+        "price": "170",
+        "color": "White, Grey, Black, Brown"
+      }
+}

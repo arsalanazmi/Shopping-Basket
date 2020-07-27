@@ -1,0 +1,56 @@
+{
+    "air_max_plus": {
+    "name": "Air Max Plus",
+    "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f658f66a-336e-4d99-b306-5f8d75677424/air-max-plus-shoe-j65hFr.jpg",
+    "price": "128",
+    "color": "White, Grey, Black, Pink, Brown"
+  },
+  "air_max_verona": {
+    "name": "Air Max Verona",
+    "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0d1810b6-3085-49ee-b3af-e8fec45c3ac7/air-max-verona-shoe-2GS6Gv.jpg",
+    "price": "132",
+    "color": "White, Grey, Black, Brown"
+  },
+  "air_zoom_pegasus_37": {
+    "name": "Air Zoom Pegasus-37",
+    "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7ab7d07a-ce93-4c05-af85-d74371472c82/air-zoom-pegasus-37-running-shoe-qVSCSr.jpg",
+    "price": "158",
+    "color": "White, Grey, Pink"
+  },
+  "air_zoom_superrep": {
+    "name": "Air Zoom SuperRep",
+    "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f0ceca88-38e6-4877-844a-84c9e738d6e9/air-zoom-superrep-hiit-class-shoe-PmHJhh.jpg",
+    "price": "168",
+    "color": "White, Grey, Black, Red, Blue, Pink, Brown"
+  },
+  "blazer_low_le": {
+    "name": "Blazer Low LE",
+    "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-64ec260f-2640-4b65-ad60-fe29dec6c5d0/blazer-low-le-shoe-9fvvQk.jpg",
+    "price": "192",
+    "color": "White, Grey, Blue, Pink, Brown"
+  },
+  "daybreak": {
+    "name": "Daybreak",
+    "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c358caa2-ac12-42bb-8641-302e63b704f9/daybreak-shoe-djt0cf.jpg",
+    "price": "188",
+    "color": "White, Grey, Blue, Pink"
+  },
+  "free_metcon_3": {
+    "name": "Free Metcon-3",
+    "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-f0c131db-9a00-4877-941d-1e20a255efca/free-metcon-3-training-shoe-B0MTbs.jpg",
+    "price": "108",
+    "color": "Grey, Black, Red, Pink, Orange"
+  },
+  "revolution_5": {
+    "name": "Revolution-5",
+    "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d85fc3cc-630c-4f3e-9c89-33b9fad9a1f0/revolution-5-running-shoe-FDtTsz.jpg",
+    "price": "155",
+    "color": "White, Grey, Pink, Brown"
+  },
+  "sb_blazer_low_gt": {
+    "name": "SB Blazer Low GT",
+    "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3c2b15a9-50f3-448b-9e11-2bfe608ad762/sb-blazer-low-gt-skate-shoe-L8LpKp.jpg",
+    "price": "140",
+    "color": "White, Grey, Red, Pink, Brown"
+  }
+}
