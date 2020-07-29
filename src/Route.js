@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import {
-  AppBar,
+  Header,
   Home,
   About,
   MenShoes,
@@ -17,7 +17,7 @@ import {
 const ConfigRoute = () => {
   return (
     <div>
-      <AppBar />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
