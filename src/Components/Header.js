@@ -34,7 +34,7 @@ const Header = () => {
   return (
     <MuiThemeProvider>
       <div 
-      style={{ position: "sticky", zIndex: 10, left: 0, right: 0, top: 0, bottom:0 }}
+      style={{ position: "sticky", zIndex: 999, left: 0, right: 0, top: 0, bottom:0 }}
       >
         <AppBar
           zDepth={3}
@@ -56,7 +56,7 @@ const Header = () => {
             <Link to="/" className={classes.link}>
               <MenuItem onClick={() => {setOpen(!open)}}>
                 Home
-                </MenuItem>
+              </MenuItem>
             </Link>
             <Link to="about" className={classes.link}>
               <MenuItem onClick={() => {setOpen(!open)}}>
