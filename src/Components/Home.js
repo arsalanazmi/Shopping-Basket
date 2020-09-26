@@ -163,7 +163,7 @@ const Home = () => {
             <img
               className="d-block w-100 slider"
               src={slider5}
-              alt="Third slide"
+              alt="Fifth slide"
             />
           </Carousel.Item>
         </Carousel>
