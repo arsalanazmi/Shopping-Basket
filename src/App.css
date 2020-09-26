@@ -4,7 +4,7 @@
   bottom: 5px;
 }
 .slider {
-  height: 47em;
+  height: 47em !important;
 }
 @media screen and (min-width: 0px) and (max-width: 360px) {
   .slider {
