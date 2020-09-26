@@ -1,3 +1,4 @@
+export {default as logo} from "./Logo.jpg"
 export {default as about} from "./about.jpg"
 export {default as Nike_Logo} from "./Nike-logo.jpg"
 export {default as slider1} from "./banner1.jpg"

@@ -21,12 +21,12 @@ const ConfigRoute = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="products/men_shoes" element={<MenShoes />} />
-        <Route path="products/women_shoes" element={<WomenShoes />} />
-        <Route path="products/kids_shoes" element={<KidsShoes />} />
-        <Route path="products/men_shoes/:productId" element={<ManShoe />} />
-        <Route path="products/women_shoes/:productId" element={<WomanShoe />} />
-        <Route path="products/kids_shoes/:productId" element={<KidShoe />} />
+        <Route path="men_shoes" element={<MenShoes />} />
+        <Route path="women_shoes" element={<WomenShoes />} />
+        <Route path="kids_shoes" element={<KidsShoes />} />
+        <Route path="men_shoes/:productId" element={<ManShoe />} />
+        <Route path="women_shoes/:productId" element={<WomanShoe />} />
+        <Route path="kids_shoes/:productId" element={<KidShoe />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

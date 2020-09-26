@@ -1,21 +1,18 @@
 import React from "react";
-import { Link } from 'react-router-dom';
-import MenShoe from '../../Json/MenShoes.json'
+import { Link } from "react-router-dom";
+import MenShoe from "../../Json/MenShoes.json";
 import {
   makeStyles,
   Grid,
   Card,
   CardContent,
   CardMedia,
-  CardActions,
   Typography,
-  Button,
 } from "@material-ui/core";
-
 
 const useStyles = makeStyles((theme) => ({
   heading: {
-    color:'#869ba0',
+    color: "#869ba0",
     textAlign: "center",
     textDecoration: "underline",
     marginTop: "3%",
@@ -39,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   media: {
-    height: 200,
+    height: 300,
     [theme.breakpoints.down("sm")]: {
       height: 120,
     },
@@ -48,20 +45,19 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   cardContent: {
-    textAlign: 'center',
+    textAlign: "center",
+    "&:hover": {
+      color: "#8e8b8b",
+    },
     [theme.breakpoints.down("sm")]: {
       fontSize: "19px",
       height: 50,
       marginTop: -10,
     },
   },
-  button : {
-    margin: '0 auto',
-    '&:focus': {
-      outline: 'none',
-    },
-    '&:hover': {
-      textDecoration: 'none',
+  link: {
+    "&:hover": {
+      textDecoration: "none",
     },
   },
 }));
@@ -80,30 +76,27 @@ const MenShoes = () => {
           const shoe = MenShoe[keyName];
           return (
             <Grid key={keyName} item xs={6} sm={4} md={4}>
-              <Card className={classes.card} elevation={4}>
-                <CardMedia
-                  className={classes.media}
-                  image={shoe.img}
-                  title={shoe.name}
-                />
-                <CardContent>
-                  <Typography
-                    className={classes.cardContent}
-                    variant="h6"
-                    component="h2"
-                  >
-                    {shoe.name}
-                  </Typography>
-                </CardContent>
-
-                <CardActions>
-                  <Link to={`/products/men_shoes/${keyName}`} className={classes.button}>
-                  <Button variant="contained" className={classes.button}>
-                    More Details
-                  </Button>
-                  </Link>
-                </CardActions>
-              </Card>
+              <Link
+                to={`/men_shoes/${keyName}`}
+                className={classes.link}
+              >
+                <Card className={classes.card} elevation={4}>
+                  <CardMedia
+                    className={classes.media}
+                    image={shoe.img}
+                    title={shoe.name}
+                  />
+                  <CardContent>
+                    <Typography
+                      className={classes.cardContent}
+                      variant="h6"
+                      component="h2"
+                    >
+                      {shoe.name}
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </Link>
             </Grid>
           );
         })}
