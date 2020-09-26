@@ -142,7 +142,7 @@ const Home = () => {
             <img
               className="d-block w-100 slider"
               src={slider2}
-              alt="Third slide"
+              alt="Second slide"
             />
           </Carousel.Item>
           <Carousel.Item>
@@ -156,7 +156,7 @@ const Home = () => {
             <img
               className="d-block w-100 slider"
               src={slider4}
-              alt="Third slide"
+              alt="Fourth slide"
             />
           </Carousel.Item>
           <Carousel.Item>
