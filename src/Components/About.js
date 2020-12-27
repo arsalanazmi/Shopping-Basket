@@ -6,6 +6,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
     textAlign: "center",
+    marginBottom: '10%',
   },
   heading: {
     color: "#e09f38",

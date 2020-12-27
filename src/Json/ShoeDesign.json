@@ -1,0 +1,26 @@
+{
+    "air_max_270_g": {
+        "name": "Air Max 270-G",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/626beac1-c764-4941-b907-db79a20bc5fd/air-max-270-g-golf-shoe-gTpCFg.jpg",
+        "price": "120",
+        "color": "White, Grey, Black"
+      },
+      "zoom_flight": {
+        "name": "Zoom Flight",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67dd405d-e91e-4492-8a80-58410c5625c7/zoom-flight-older-basketball-shoe-FG7pVN.jpg",
+        "price": "170",
+        "color": "White, Grey, Black, Brown"
+      },
+      "air_zoom_speed": {
+        "name": "Air Zoom Speed",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/695f645c-bce9-4421-a923-cd68e3980249/air-zoom-speed-younger-older-running-shoe-JnhB6z.jpg",
+        "price": "168",
+        "color": "White, Grey"
+      },
+      "daybreak": {
+        "name": "Daybreak",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c358caa2-ac12-42bb-8641-302e63b704f9/daybreak-shoe-djt0cf.jpg",
+        "price": "188",
+        "color": "White, Grey, Blue, Pink"
+      }
+}

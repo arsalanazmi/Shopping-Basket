@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import MenShoe from "../../Json/MenShoes.json";
 import {
   makeStyles,
   Grid,
@@ -9,9 +8,12 @@ import {
   CardMedia,
   Typography,
 } from "@material-ui/core";
+import { useSelector } from "react-redux";
+import { selectProducts } from "../store";
 
 const useStyles = makeStyles((theme) => ({
   heading: {
+    fontWeight: 'bold',
     color: "#869ba0",
     textAlign: "center",
     textDecoration: "underline",
@@ -21,7 +23,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   root: {
+    display: "flex",
+    justifyContent: "center",
     padding: "3% 10% 0 10%",
+    marginBottom:'5%',
     [theme.breakpoints.down("sm")]: {
       padding: "3% 2%",
     },
@@ -38,10 +43,10 @@ const useStyles = makeStyles((theme) => ({
   media: {
     height: 300,
     [theme.breakpoints.down("sm")]: {
-      height: 120,
+      height: 200,
     },
     [theme.breakpoints.down("md")]: {
-      height: 140,
+      height: 240,
     },
   },
   cardContent: {
@@ -62,29 +67,30 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const MenShoes = () => {
+const Product = () => {
   const classes = useStyles();
+
+  // Select Data from redux store
+  const products = useSelector(selectProducts);
 
   return (
     <div>
       <Typography variant="h3" className={classes.heading}>
-        Men Shoes
+        Product
       </Typography>
 
       <Grid className={classes.root} container>
-        {Object.keys(MenShoe).map((keyName) => {
-          const shoe = MenShoe[keyName];
+        {products.map((product) => {
+          let { id, name, img } = product;
+
           return (
-            <Grid key={keyName} item xs={6} sm={4} md={4}>
-              <Link
-                to={`/men_shoes/${keyName}`}
-                className={classes.link}
-              >
-                <Card className={classes.card} elevation={4}>
+            <Grid key={id} item xs={10} sm={6} md={4}>
+              <Link to={`/product_details/${id}`} className={classes.link}>
+                <Card className={classes.card} elevation={5}>
                   <CardMedia
                     className={classes.media}
-                    image={shoe.img}
-                    title={shoe.name}
+                    image={img}
+                    title={name}
                   />
                   <CardContent>
                     <Typography
@@ -92,7 +98,7 @@ const MenShoes = () => {
                       variant="h6"
                       component="h2"
                     >
-                      {shoe.name}
+                      {name}
                     </Typography>
                   </CardContent>
                 </Card>
@@ -105,4 +111,4 @@ const MenShoes = () => {
   );
 };
 
-export default MenShoes;
+export default Product;
