@@ -64,7 +64,7 @@ const Checkout = () => {
   const classes = useStyles();
 
   // Create Shipping Context
-  const [ShippingState, setShippingContext] = useContext(ShippingContext);
+  const setShippingContext = useContext(ShippingContext);
   let history = useHistory();
 
   // Use Form
@@ -72,7 +72,7 @@ const Checkout = () => {
 
   // Handle Submit
   const onSubmit = (data) => {
-    setShippingContext(data);
+    setShippingContext[1](data);
     history.push("/order_summary");
   };
 

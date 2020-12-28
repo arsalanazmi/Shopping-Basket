@@ -69,7 +69,7 @@ const OrderSummary = () => {
   let totalAmount = useSelector(selectTotalAmount);
 
   // Use Context
-  const [ShippingState, setShippingState] = useContext(ShippingContext);
+  const ShippingState = useContext(ShippingContext);
 
   // Shipping state
   const {
@@ -80,7 +80,7 @@ const OrderSummary = () => {
     state,
     country,
     zip_code,
-  } = ShippingState;
+  } = ShippingState[0];
 
   return (
     <Paper className={classes.Paper} elevation={5}>
