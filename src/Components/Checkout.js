@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import "../App.css";
 import { useForm } from "react-hook-form";
 import { ShippingContext } from "../CartContext";
 import { Link, useHistory } from "react-router-dom";
