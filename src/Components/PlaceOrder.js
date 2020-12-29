@@ -1,6 +1,4 @@
 import React from "react";
-import "../App.css";
-// import { CartContext } from "../CartContext";
 import { makeStyles, Paper, Typography } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
@@ -36,11 +34,6 @@ const useStyles = makeStyles((theme) => ({
 
 const PlaceOrder = () => {
   const classes = useStyles();
-
-  // const [cart, setCart] = useContext(CartContext);
-  // useEffect(() => {
-  //   setCart([]);
-  // }, []);
 
   return (
     <Paper className={classes.Paper} elevation={5}>
